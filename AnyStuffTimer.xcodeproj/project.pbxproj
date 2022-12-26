@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		619091BD29598C1700812D54 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091BC29598C1700812D54 /* TimerView.swift */; };
+		619091BF29598CB800812D54 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091BE29598CB800812D54 /* UIView+Extensions.swift */; };
+		619091C22959959A00812D54 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C12959959A00812D54 /* UIColor+Extensions.swift */; };
+		619091C42959991700812D54 /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C32959991700812D54 /* UIScreen+Extensions.swift */; };
+		619091C62959A94E00812D54 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C52959A94E00812D54 /* TimerController.swift */; };
+		619091C82959A9CD00812D54 /* TimerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C72959A9CD00812D54 /* TimerPresenter.swift */; };
+		619091CA2959ADD100812D54 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C92959ADD100812D54 /* UIImageView+Extensions.swift */; };
+		619091CC2959E80400812D54 /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091CB2959E80400812D54 /* TimerData.swift */; };
 		61EC264526FF2CD10025C0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC264426FF2CD10025C0D1 /* AppDelegate.swift */; };
 		61EC264726FF2CD10025C0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC264626FF2CD10025C0D1 /* SceneDelegate.swift */; };
-		61EC264926FF2CD10025C0D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC264826FF2CD10025C0D1 /* ViewController.swift */; };
-		61EC264C26FF2CD10025C0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EC264A26FF2CD10025C0D1 /* Main.storyboard */; };
 		61EC264E26FF2CD30025C0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61EC264D26FF2CD30025C0D1 /* Assets.xcassets */; };
 		61EC265126FF2CD30025C0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EC264F26FF2CD30025C0D1 /* LaunchScreen.storyboard */; };
 		61EC265C2700571B0025C0D1 /* timer_finished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61EC265B2700571A0025C0D1 /* timer_finished.mp3 */; };
@@ -18,11 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		619091BC29598C1700812D54 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		619091BE29598CB800812D54 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		619091C12959959A00812D54 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		619091C32959991700812D54 /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
+		619091C52959A94E00812D54 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		619091C72959A9CD00812D54 /* TimerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPresenter.swift; sourceTree = "<group>"; };
+		619091C92959ADD100812D54 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		619091CB2959E80400812D54 /* TimerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerData.swift; sourceTree = "<group>"; };
 		61EC264126FF2CD10025C0D1 /* AnyStuffTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyStuffTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EC264426FF2CD10025C0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61EC264626FF2CD10025C0D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61EC264826FF2CD10025C0D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61EC264B26FF2CD10025C0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61EC264D26FF2CD30025C0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61EC265026FF2CD30025C0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61EC265226FF2CD30025C0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +53,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		619091BA29598BAF00812D54 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				619091C72959A9CD00812D54 /* TimerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		619091BB29598BC400812D54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				619091C029598CBE00812D54 /* Helpers */,
+				61EC265D270057200025C0D1 /* Sounds */,
+				61EC264426FF2CD10025C0D1 /* AppDelegate.swift */,
+				61EC264626FF2CD10025C0D1 /* SceneDelegate.swift */,
+				61EC264D26FF2CD30025C0D1 /* Assets.xcassets */,
+				61EC265226FF2CD30025C0D1 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		619091C029598CBE00812D54 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				619091BE29598CB800812D54 /* UIView+Extensions.swift */,
+				619091C12959959A00812D54 /* UIColor+Extensions.swift */,
+				619091C32959991700812D54 /* UIScreen+Extensions.swift */,
+				619091C92959ADD100812D54 /* UIImageView+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		61EC263826FF2CD10025C0D1 = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +107,8 @@
 				61EC265A26FF2CFE0025C0D1 /* Model */,
 				61EC265926FF2CF60025C0D1 /* View */,
 				61EC265826FF2CEB0025C0D1 /* Controller */,
-				61EC264D26FF2CD30025C0D1 /* Assets.xcassets */,
-				61EC265226FF2CD30025C0D1 /* Info.plist */,
-				61EC265D270057200025C0D1 /* Sounds */,
+				619091BA29598BAF00812D54 /* Presenter */,
+				619091BB29598BC400812D54 /* Supporting Files */,
 			);
 			path = AnyStuffTimer;
 			sourceTree = "<group>";
@@ -73,7 +116,7 @@
 		61EC265826FF2CEB0025C0D1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				61EC264826FF2CD10025C0D1 /* ViewController.swift */,
+				619091C52959A94E00812D54 /* TimerController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -81,8 +124,8 @@
 		61EC265926FF2CF60025C0D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				61EC264A26FF2CD10025C0D1 /* Main.storyboard */,
 				61EC264F26FF2CD30025C0D1 /* LaunchScreen.storyboard */,
+				619091BC29598C1700812D54 /* TimerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,8 +133,7 @@
 		61EC265A26FF2CFE0025C0D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				61EC264426FF2CD10025C0D1 /* AppDelegate.swift */,
-				61EC264626FF2CD10025C0D1 /* SceneDelegate.swift */,
+				619091CB2959E80400812D54 /* TimerData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +157,7 @@
 				61EC263D26FF2CD10025C0D1 /* Sources */,
 				61EC263E26FF2CD10025C0D1 /* Frameworks */,
 				61EC263F26FF2CD10025C0D1 /* Resources */,
+				619091B929598B5500812D54 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -167,19 +210,46 @@
 				61EC264E26FF2CD30025C0D1 /* Assets.xcassets in Resources */,
 				61EC2661270068010025C0D1 /* button_pressed.mp3 in Resources */,
 				61EC265C2700571B0025C0D1 /* timer_finished.mp3 in Resources */,
-				61EC264C26FF2CD10025C0D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		619091B929598B5500812D54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61EC263D26FF2CD10025C0D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61EC264926FF2CD10025C0D1 /* ViewController.swift in Sources */,
+				619091CA2959ADD100812D54 /* UIImageView+Extensions.swift in Sources */,
+				619091C22959959A00812D54 /* UIColor+Extensions.swift in Sources */,
 				61EC264526FF2CD10025C0D1 /* AppDelegate.swift in Sources */,
+				619091CC2959E80400812D54 /* TimerData.swift in Sources */,
+				619091C82959A9CD00812D54 /* TimerPresenter.swift in Sources */,
+				619091C42959991700812D54 /* UIScreen+Extensions.swift in Sources */,
+				619091BF29598CB800812D54 /* UIView+Extensions.swift in Sources */,
+				619091C62959A94E00812D54 /* TimerController.swift in Sources */,
+				619091BD29598C1700812D54 /* TimerView.swift in Sources */,
 				61EC264726FF2CD10025C0D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,14 +257,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61EC264A26FF2CD10025C0D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61EC264B26FF2CD10025C0D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61EC264F26FF2CD30025C0D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -331,10 +393,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7WTLW784B9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnyStuffTimer/Info.plist;
+				INFOPLIST_FILE = "AnyStuffTimer/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -343,11 +404,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilya.I-Am-Rich-AppBrewery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.AnyStuffTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,10 +424,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7WTLW784B9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnyStuffTimer/Info.plist;
+				INFOPLIST_FILE = "AnyStuffTimer/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -372,11 +435,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilya.I-Am-Rich-AppBrewery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilya.AnyStuffTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
