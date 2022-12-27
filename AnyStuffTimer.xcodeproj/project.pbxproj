@@ -13,7 +13,6 @@
 		619091C42959991700812D54 /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C32959991700812D54 /* UIScreen+Extensions.swift */; };
 		619091C62959A94E00812D54 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C52959A94E00812D54 /* TimerController.swift */; };
 		619091C82959A9CD00812D54 /* TimerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C72959A9CD00812D54 /* TimerPresenter.swift */; };
-		619091CA2959ADD100812D54 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091C92959ADD100812D54 /* UIImageView+Extensions.swift */; };
 		619091CC2959E80400812D54 /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619091CB2959E80400812D54 /* TimerData.swift */; };
 		61EC264526FF2CD10025C0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC264426FF2CD10025C0D1 /* AppDelegate.swift */; };
 		61EC264726FF2CD10025C0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC264626FF2CD10025C0D1 /* SceneDelegate.swift */; };
@@ -30,7 +29,6 @@
 		619091C32959991700812D54 /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
 		619091C52959A94E00812D54 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		619091C72959A9CD00812D54 /* TimerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPresenter.swift; sourceTree = "<group>"; };
-		619091C92959ADD100812D54 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		619091CB2959E80400812D54 /* TimerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerData.swift; sourceTree = "<group>"; };
 		61EC264126FF2CD10025C0D1 /* AnyStuffTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyStuffTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EC264426FF2CD10025C0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				619091BE29598CB800812D54 /* UIView+Extensions.swift */,
 				619091C12959959A00812D54 /* UIColor+Extensions.swift */,
 				619091C32959991700812D54 /* UIScreen+Extensions.swift */,
-				619091C92959ADD100812D54 /* UIImageView+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -241,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619091CA2959ADD100812D54 /* UIImageView+Extensions.swift in Sources */,
 				619091C22959959A00812D54 /* UIColor+Extensions.swift in Sources */,
 				61EC264526FF2CD10025C0D1 /* AppDelegate.swift in Sources */,
 				619091CC2959E80400812D54 /* TimerData.swift in Sources */,
