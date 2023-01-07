@@ -2,7 +2,7 @@
 Up to 24 hrs timer with pause and continue functionality
 The app will play sound, when the timer will reach the given amount of time.
 
-<img src="[https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png](https://user-images.githubusercontent.com/82824022/209804810-71e7c481-46d4-4771-b0e4-ecbb5cc07085.PNG)" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/82824022/209804810-71e7c481-46d4-4771-b0e4-ecbb5cc07085.PNG" width=50% height=50%>
 
 ![IMG_8748](https://user-images.githubusercontent.com/82824022/209804810-71e7c481-46d4-4771-b0e4-ecbb5cc07085.PNG)
 
