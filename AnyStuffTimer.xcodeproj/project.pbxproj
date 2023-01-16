@@ -17,7 +17,6 @@
 		61EC264526FF2CD10025C0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC264426FF2CD10025C0D1 /* AppDelegate.swift */; };
 		61EC264726FF2CD10025C0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC264626FF2CD10025C0D1 /* SceneDelegate.swift */; };
 		61EC264E26FF2CD30025C0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61EC264D26FF2CD30025C0D1 /* Assets.xcassets */; };
-		61EC265126FF2CD30025C0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EC264F26FF2CD30025C0D1 /* LaunchScreen.storyboard */; };
 		61EC265C2700571B0025C0D1 /* timer_finished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61EC265B2700571A0025C0D1 /* timer_finished.mp3 */; };
 		61EC2661270068010025C0D1 /* button_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61EC2660270068010025C0D1 /* button_pressed.mp3 */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		61EC264426FF2CD10025C0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61EC264626FF2CD10025C0D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61EC264D26FF2CD30025C0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61EC265026FF2CD30025C0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61EC265226FF2CD30025C0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61EC265B2700571A0025C0D1 /* timer_finished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timer_finished.mp3; sourceTree = "<group>"; };
 		61EC2660270068010025C0D1 /* button_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_pressed.mp3; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 		61EC265926FF2CF60025C0D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				61EC264F26FF2CD30025C0D1 /* LaunchScreen.storyboard */,
 				619091BC29598C1700812D54 /* TimerView.swift */,
 			);
 			path = View;
@@ -203,7 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61EC265126FF2CD30025C0D1 /* LaunchScreen.storyboard in Resources */,
 				61EC264E26FF2CD30025C0D1 /* Assets.xcassets in Resources */,
 				61EC2661270068010025C0D1 /* button_pressed.mp3 in Resources */,
 				61EC265C2700571B0025C0D1 /* timer_finished.mp3 in Resources */,
@@ -251,17 +247,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		61EC264F26FF2CD30025C0D1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61EC265026FF2CD30025C0D1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61EC265326FF2CD30025C0D1 /* Debug */ = {
