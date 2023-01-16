@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  AnyStuffTimer
-//
-//  Created by Илья Валито on 25.09.2021.
-//
-
 import UIKit
 
 @main
